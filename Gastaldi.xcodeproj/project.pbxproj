@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6907289E1D0B827E00C8B522 /* CFETableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6907289D1D0B827E00C8B522 /* CFETableViewCell.swift */; };
+		690728A21D0CAB5000C8B522 /* CFETableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690728A11D0CAB5000C8B522 /* CFETableViewController.swift */; };
+		690728A61D12213000C8B522 /* CFEHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690728A51D12213000C8B522 /* CFEHeaderCell.swift */; };
+		695B21CD1D6A053000BB8E33 /* Descuento+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B21BD1D6A053000BB8E33 /* Descuento+CoreDataProperties.swift */; };
+		695B21CE1D6A053000BB8E33 /* Descuento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B21BE1D6A053000BB8E33 /* Descuento.swift */; };
+		695B21CF1D6A053000BB8E33 /* Recargo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B21BF1D6A053000BB8E33 /* Recargo+CoreDataProperties.swift */; };
+		695B21D01D6A053000BB8E33 /* Recargo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B21C01D6A053000BB8E33 /* Recargo.swift */; };
+		695B21D11D6A053000BB8E33 /* Emisor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B21C11D6A053000BB8E33 /* Emisor+CoreDataProperties.swift */; };
+		695B21D21D6A053000BB8E33 /* Emisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B21C21D6A053000BB8E33 /* Emisor.swift */; };
+		695B21D31D6A053000BB8E33 /* Impuesto+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B21C31D6A053000BB8E33 /* Impuesto+CoreDataProperties.swift */; };
+		695B21D41D6A053000BB8E33 /* Impuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B21C41D6A053000BB8E33 /* Impuesto.swift */; };
+		695B21D51D6A053000BB8E33 /* Receptor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B21C51D6A053000BB8E33 /* Receptor+CoreDataProperties.swift */; };
+		695B21D61D6A053000BB8E33 /* Receptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B21C61D6A053000BB8E33 /* Receptor.swift */; };
+		695B21D71D6A053000BB8E33 /* Certificado+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B21C71D6A053000BB8E33 /* Certificado+CoreDataProperties.swift */; };
+		695B21D81D6A053000BB8E33 /* Certificado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B21C81D6A053000BB8E33 /* Certificado.swift */; };
+		695B21D91D6A053000BB8E33 /* CodigosItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B21C91D6A053000BB8E33 /* CodigosItem+CoreDataProperties.swift */; };
+		695B21DA1D6A053000BB8E33 /* CodigosItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B21CA1D6A053000BB8E33 /* CodigosItem.swift */; };
+		695B21DB1D6A053000BB8E33 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B21CB1D6A053000BB8E33 /* Item+CoreDataProperties.swift */; };
+		695B21DC1D6A053000BB8E33 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B21CC1D6A053000BB8E33 /* Item.swift */; };
+		69D37CDC1D04A48200A349F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D37CDB1D04A48200A349F0 /* AppDelegate.swift */; };
+		69D37CE41D04A48200A349F0 /* Gastaldi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69D37CE21D04A48200A349F0 /* Gastaldi.xcdatamodeld */; };
+		69D37CE61D04A48200A349F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D37CE51D04A48200A349F0 /* Assets.xcassets */; };
+		69D37CE91D04A48200A349F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D37CE71D04A48200A349F0 /* LaunchScreen.storyboard */; };
+		69D37CF41D04A48200A349F0 /* GastaldiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D37CF31D04A48200A349F0 /* GastaldiTests.swift */; };
+		69D37CFF1D04A48200A349F0 /* GastaldiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D37CFE1D04A48200A349F0 /* GastaldiUITests.swift */; };
+		69D37D0F1D04C25100A349F0 /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D37D0E1D04C25100A349F0 /* CoreDataTableViewController.swift */; };
+		69F025501D6F891400913638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F0254F1D6F891400913638 /* Main.storyboard */; };
+		69F025521D6F8B7400913638 /* CFESectionHeaderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F025511D6F8B7400913638 /* CFESectionHeaderLabel.swift */; };
+		69F025541D6F8D1900913638 /* CFECaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F025531D6F8D1900913638 /* CFECaptureViewController.swift */; };
+		69F025561D6F8D2100913638 /* CFEDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F025551D6F8D2100913638 /* CFEDetailViewController.swift */; };
+		69F99D601E5A715F00BCAC14 /* CFE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F99D5F1E5A715F00BCAC14 /* CFE.framework */; };
+		69F99D621E75835500BCAC14 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F99D611E75835500BCAC14 /* DateHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69D37CF01D04A48200A349F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69D37CD01D04A48200A349F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69D37CD71D04A48200A349F0;
+			remoteInfo = Gastaldi;
+		};
+		69D37CFB1D04A48200A349F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69D37CD01D04A48200A349F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69D37CD71D04A48200A349F0;
+			remoteInfo = Gastaldi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6958D4461D849ADF00E2BA94 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6907289D1D0B827E00C8B522 /* CFETableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFETableViewCell.swift; sourceTree = "<group>"; };
+		690728A11D0CAB5000C8B522 /* CFETableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFETableViewController.swift; sourceTree = "<group>"; };
+		690728A51D12213000C8B522 /* CFEHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFEHeaderCell.swift; sourceTree = "<group>"; };
+		695B21BD1D6A053000BB8E33 /* Descuento+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Descuento+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		695B21BE1D6A053000BB8E33 /* Descuento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Descuento.swift; sourceTree = "<group>"; };
+		695B21BF1D6A053000BB8E33 /* Recargo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recargo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		695B21C01D6A053000BB8E33 /* Recargo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recargo.swift; sourceTree = "<group>"; };
+		695B21C11D6A053000BB8E33 /* Emisor+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Emisor+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		695B21C21D6A053000BB8E33 /* Emisor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emisor.swift; sourceTree = "<group>"; };
+		695B21C31D6A053000BB8E33 /* Impuesto+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Impuesto+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		695B21C41D6A053000BB8E33 /* Impuesto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Impuesto.swift; sourceTree = "<group>"; };
+		695B21C51D6A053000BB8E33 /* Receptor+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Receptor+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		695B21C61D6A053000BB8E33 /* Receptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Receptor.swift; sourceTree = "<group>"; };
+		695B21C71D6A053000BB8E33 /* Certificado+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Certificado+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		695B21C81D6A053000BB8E33 /* Certificado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Certificado.swift; sourceTree = "<group>"; };
+		695B21C91D6A053000BB8E33 /* CodigosItem+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CodigosItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		695B21CA1D6A053000BB8E33 /* CodigosItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodigosItem.swift; sourceTree = "<group>"; };
+		695B21CB1D6A053000BB8E33 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		695B21CC1D6A053000BB8E33 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		69D37CD81D04A48200A349F0 /* Gastaldi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gastaldi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D37CDB1D04A48200A349F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69D37CE31D04A48200A349F0 /* Gastaldi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gastaldi.xcdatamodel; sourceTree = "<group>"; };
+		69D37CE51D04A48200A349F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69D37CE81D04A48200A349F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69D37CEA1D04A48200A349F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D37CEF1D04A48200A349F0 /* GastaldiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GastaldiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D37CF31D04A48200A349F0 /* GastaldiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastaldiTests.swift; sourceTree = "<group>"; };
+		69D37CF51D04A48200A349F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D37CFA1D04A48200A349F0 /* GastaldiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GastaldiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D37CFE1D04A48200A349F0 /* GastaldiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastaldiUITests.swift; sourceTree = "<group>"; };
+		69D37D001D04A48200A349F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D37D0E1D04C25100A349F0 /* CoreDataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewController.swift; sourceTree = "<group>"; };
+		69F0254F1D6F891400913638 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		69F025511D6F8B7400913638 /* CFESectionHeaderLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFESectionHeaderLabel.swift; sourceTree = "<group>"; };
+		69F025531D6F8D1900913638 /* CFECaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFECaptureViewController.swift; sourceTree = "<group>"; };
+		69F025551D6F8D2100913638 /* CFEDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFEDetailViewController.swift; sourceTree = "<group>"; };
+		69F99D5F1E5A715F00BCAC14 /* CFE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFE.framework; path = "../../Library/Developer/Xcode/DerivedData/eFactura-casxnvvtksbuptfqnyrdonygtaby/Build/Products/Debug-iphonesimulator/CFE.framework"; sourceTree = "<group>"; };
+		69F99D611E75835500BCAC14 /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69D37CD51D04A48200A349F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F99D601E5A715F00BCAC14 /* CFE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D37CEC1D04A48200A349F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D37CF71D04A48200A349F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69D37CCF1D04A48200A349F0 = {
+			isa = PBXGroup;
+			children = (
+				69D37CDA1D04A48200A349F0 /* Gastaldi */,
+				69D37CF21D04A48200A349F0 /* GastaldiTests */,
+				69D37CFD1D04A48200A349F0 /* GastaldiUITests */,
+				69D37CD91D04A48200A349F0 /* Products */,
+				69F99D5E1E5A715F00BCAC14 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69D37CD91D04A48200A349F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69D37CD81D04A48200A349F0 /* Gastaldi.app */,
+				69D37CEF1D04A48200A349F0 /* GastaldiTests.xctest */,
+				69D37CFA1D04A48200A349F0 /* GastaldiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69D37CDA1D04A48200A349F0 /* Gastaldi */ = {
+			isa = PBXGroup;
+			children = (
+				69D37D0C1D04B83000A349F0 /* Supporting Files */,
+				69F025531D6F8D1900913638 /* CFECaptureViewController.swift */,
+				69F99D611E75835500BCAC14 /* DateHelper.swift */,
+				69F0254F1D6F891400913638 /* Main.storyboard */,
+				69F025511D6F8B7400913638 /* CFESectionHeaderLabel.swift */,
+				69F025551D6F8D2100913638 /* CFEDetailViewController.swift */,
+				6907289D1D0B827E00C8B522 /* CFETableViewCell.swift */,
+				690728A51D12213000C8B522 /* CFEHeaderCell.swift */,
+				690728A11D0CAB5000C8B522 /* CFETableViewController.swift */,
+				69D37D0D1D04B84100A349F0 /* Core Data */,
+			);
+			path = Gastaldi;
+			sourceTree = "<group>";
+		};
+		69D37CF21D04A48200A349F0 /* GastaldiTests */ = {
+			isa = PBXGroup;
+			children = (
+				69D37CF31D04A48200A349F0 /* GastaldiTests.swift */,
+				69D37CF51D04A48200A349F0 /* Info.plist */,
+			);
+			path = GastaldiTests;
+			sourceTree = "<group>";
+		};
+		69D37CFD1D04A48200A349F0 /* GastaldiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69D37CFE1D04A48200A349F0 /* GastaldiUITests.swift */,
+				69D37D001D04A48200A349F0 /* Info.plist */,
+			);
+			path = GastaldiUITests;
+			sourceTree = "<group>";
+		};
+		69D37D0C1D04B83000A349F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69D37CDB1D04A48200A349F0 /* AppDelegate.swift */,
+				69D37CE51D04A48200A349F0 /* Assets.xcassets */,
+				69D37CE71D04A48200A349F0 /* LaunchScreen.storyboard */,
+				69D37CEA1D04A48200A349F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69D37D0D1D04B84100A349F0 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				69D37D0E1D04C25100A349F0 /* CoreDataTableViewController.swift */,
+				695B21BD1D6A053000BB8E33 /* Descuento+CoreDataProperties.swift */,
+				695B21BE1D6A053000BB8E33 /* Descuento.swift */,
+				695B21BF1D6A053000BB8E33 /* Recargo+CoreDataProperties.swift */,
+				695B21C01D6A053000BB8E33 /* Recargo.swift */,
+				695B21C11D6A053000BB8E33 /* Emisor+CoreDataProperties.swift */,
+				695B21C21D6A053000BB8E33 /* Emisor.swift */,
+				695B21C31D6A053000BB8E33 /* Impuesto+CoreDataProperties.swift */,
+				695B21C41D6A053000BB8E33 /* Impuesto.swift */,
+				695B21C51D6A053000BB8E33 /* Receptor+CoreDataProperties.swift */,
+				695B21C61D6A053000BB8E33 /* Receptor.swift */,
+				695B21C71D6A053000BB8E33 /* Certificado+CoreDataProperties.swift */,
+				695B21C81D6A053000BB8E33 /* Certificado.swift */,
+				695B21C91D6A053000BB8E33 /* CodigosItem+CoreDataProperties.swift */,
+				695B21CA1D6A053000BB8E33 /* CodigosItem.swift */,
+				695B21CB1D6A053000BB8E33 /* Item+CoreDataProperties.swift */,
+				695B21CC1D6A053000BB8E33 /* Item.swift */,
+				69D37CE21D04A48200A349F0 /* Gastaldi.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		69F99D5E1E5A715F00BCAC14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69F99D5F1E5A715F00BCAC14 /* CFE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69D37CD71D04A48200A349F0 /* Gastaldi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D37D031D04A48200A349F0 /* Build configuration list for PBXNativeTarget "Gastaldi" */;
+			buildPhases = (
+				69D37CD41D04A48200A349F0 /* Sources */,
+				69D37CD51D04A48200A349F0 /* Frameworks */,
+				69D37CD61D04A48200A349F0 /* Resources */,
+				6958D4461D849ADF00E2BA94 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gastaldi;
+			productName = Gastaldi;
+			productReference = 69D37CD81D04A48200A349F0 /* Gastaldi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69D37CEE1D04A48200A349F0 /* GastaldiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D37D061D04A48200A349F0 /* Build configuration list for PBXNativeTarget "GastaldiTests" */;
+			buildPhases = (
+				69D37CEB1D04A48200A349F0 /* Sources */,
+				69D37CEC1D04A48200A349F0 /* Frameworks */,
+				69D37CED1D04A48200A349F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69D37CF11D04A48200A349F0 /* PBXTargetDependency */,
+			);
+			name = GastaldiTests;
+			productName = GastaldiTests;
+			productReference = 69D37CEF1D04A48200A349F0 /* GastaldiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69D37CF91D04A48200A349F0 /* GastaldiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D37D091D04A48200A349F0 /* Build configuration list for PBXNativeTarget "GastaldiUITests" */;
+			buildPhases = (
+				69D37CF61D04A48200A349F0 /* Sources */,
+				69D37CF71D04A48200A349F0 /* Frameworks */,
+				69D37CF81D04A48200A349F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69D37CFC1D04A48200A349F0 /* PBXTargetDependency */,
+			);
+			name = GastaldiUITests;
+			productName = GastaldiUITests;
+			productReference = 69D37CFA1D04A48200A349F0 /* GastaldiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69D37CD01D04A48200A349F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Daniel Bonini";
+				TargetAttributes = {
+					69D37CD71D04A48200A349F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2F7AU6VULG;
+						LastSwiftMigration = 0800;
+					};
+					69D37CEE1D04A48200A349F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2F7AU6VULG;
+						LastSwiftMigration = 0800;
+						TestTargetID = 69D37CD71D04A48200A349F0;
+					};
+					69D37CF91D04A48200A349F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2F7AU6VULG;
+						LastSwiftMigration = 0800;
+						TestTargetID = 69D37CD71D04A48200A349F0;
+					};
+				};
+			};
+			buildConfigurationList = 69D37CD31D04A48200A349F0 /* Build configuration list for PBXProject "Gastaldi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69D37CCF1D04A48200A349F0;
+			productRefGroup = 69D37CD91D04A48200A349F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69D37CD71D04A48200A349F0 /* Gastaldi */,
+				69D37CEE1D04A48200A349F0 /* GastaldiTests */,
+				69D37CF91D04A48200A349F0 /* GastaldiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69D37CD61D04A48200A349F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D37CE91D04A48200A349F0 /* LaunchScreen.storyboard in Resources */,
+				69D37CE61D04A48200A349F0 /* Assets.xcassets in Resources */,
+				69F025501D6F891400913638 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D37CED1D04A48200A349F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D37CF81D04A48200A349F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69D37CD41D04A48200A349F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695B21DB1D6A053000BB8E33 /* Item+CoreDataProperties.swift in Sources */,
+				695B21D31D6A053000BB8E33 /* Impuesto+CoreDataProperties.swift in Sources */,
+				69D37CE41D04A48200A349F0 /* Gastaldi.xcdatamodeld in Sources */,
+				695B21D81D6A053000BB8E33 /* Certificado.swift in Sources */,
+				695B21DC1D6A053000BB8E33 /* Item.swift in Sources */,
+				69F025541D6F8D1900913638 /* CFECaptureViewController.swift in Sources */,
+				69D37D0F1D04C25100A349F0 /* CoreDataTableViewController.swift in Sources */,
+				695B21CF1D6A053000BB8E33 /* Recargo+CoreDataProperties.swift in Sources */,
+				695B21D51D6A053000BB8E33 /* Receptor+CoreDataProperties.swift in Sources */,
+				695B21DA1D6A053000BB8E33 /* CodigosItem.swift in Sources */,
+				695B21D21D6A053000BB8E33 /* Emisor.swift in Sources */,
+				6907289E1D0B827E00C8B522 /* CFETableViewCell.swift in Sources */,
+				69F025561D6F8D2100913638 /* CFEDetailViewController.swift in Sources */,
+				690728A21D0CAB5000C8B522 /* CFETableViewController.swift in Sources */,
+				690728A61D12213000C8B522 /* CFEHeaderCell.swift in Sources */,
+				695B21D91D6A053000BB8E33 /* CodigosItem+CoreDataProperties.swift in Sources */,
+				695B21CE1D6A053000BB8E33 /* Descuento.swift in Sources */,
+				69D37CDC1D04A48200A349F0 /* AppDelegate.swift in Sources */,
+				695B21D11D6A053000BB8E33 /* Emisor+CoreDataProperties.swift in Sources */,
+				695B21CD1D6A053000BB8E33 /* Descuento+CoreDataProperties.swift in Sources */,
+				69F025521D6F8B7400913638 /* CFESectionHeaderLabel.swift in Sources */,
+				69F99D621E75835500BCAC14 /* DateHelper.swift in Sources */,
+				695B21D71D6A053000BB8E33 /* Certificado+CoreDataProperties.swift in Sources */,
+				695B21D61D6A053000BB8E33 /* Receptor.swift in Sources */,
+				695B21D01D6A053000BB8E33 /* Recargo.swift in Sources */,
+				695B21D41D6A053000BB8E33 /* Impuesto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D37CEB1D04A48200A349F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D37CF41D04A48200A349F0 /* GastaldiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D37CF61D04A48200A349F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D37CFF1D04A48200A349F0 /* GastaldiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69D37CF11D04A48200A349F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69D37CD71D04A48200A349F0 /* Gastaldi */;
+			targetProxy = 69D37CF01D04A48200A349F0 /* PBXContainerItemProxy */;
+		};
+		69D37CFC1D04A48200A349F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69D37CD71D04A48200A349F0 /* Gastaldi */;
+			targetProxy = 69D37CFB1D04A48200A349F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69D37CE71D04A48200A349F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69D37CE81D04A48200A349F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69D37D011D04A48200A349F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69D37D021D04A48200A349F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69D37D041D04A48200A349F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2F7AU6VULG;
+				INFOPLIST_FILE = Gastaldi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = avrinan.Gastaldi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		69D37D051D04A48200A349F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2F7AU6VULG;
+				INFOPLIST_FILE = Gastaldi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = avrinan.Gastaldi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		69D37D071D04A48200A349F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GastaldiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = avrinan.GastaldiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gastaldi.app/Gastaldi";
+			};
+			name = Debug;
+		};
+		69D37D081D04A48200A349F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GastaldiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = avrinan.GastaldiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gastaldi.app/Gastaldi";
+			};
+			name = Release;
+		};
+		69D37D0A1D04A48200A349F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				INFOPLIST_FILE = GastaldiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = avrinan.GastaldiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Gastaldi;
+			};
+			name = Debug;
+		};
+		69D37D0B1D04A48200A349F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				INFOPLIST_FILE = GastaldiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = avrinan.GastaldiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Gastaldi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69D37CD31D04A48200A349F0 /* Build configuration list for PBXProject "Gastaldi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D37D011D04A48200A349F0 /* Debug */,
+				69D37D021D04A48200A349F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69D37D031D04A48200A349F0 /* Build configuration list for PBXNativeTarget "Gastaldi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D37D041D04A48200A349F0 /* Debug */,
+				69D37D051D04A48200A349F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69D37D061D04A48200A349F0 /* Build configuration list for PBXNativeTarget "GastaldiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D37D071D04A48200A349F0 /* Debug */,
+				69D37D081D04A48200A349F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69D37D091D04A48200A349F0 /* Build configuration list for PBXNativeTarget "GastaldiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D37D0A1D04A48200A349F0 /* Debug */,
+				69D37D0B1D04A48200A349F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69D37CE21D04A48200A349F0 /* Gastaldi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69D37CE31D04A48200A349F0 /* Gastaldi.xcdatamodel */,
+			);
+			currentVersion = 69D37CE31D04A48200A349F0 /* Gastaldi.xcdatamodel */;
+			path = Gastaldi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 69D37CD01D04A48200A349F0 /* Project object */;
+}

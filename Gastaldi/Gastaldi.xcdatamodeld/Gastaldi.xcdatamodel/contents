@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15G1004" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Certificado" representedClassName=".Certificado" syncable="YES">
+        <attribute name="anioMesCargo" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="clausulaVenta" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="codigoSeguridad" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fechaAlta" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="fechaCFE" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="fechaDesde" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="fechaHasta" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="fechaVencimiento" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="formaPago" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="indicadorMB" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="indicadorTTB" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="infoAdicional" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lineas" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="modalidadVenta" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="montoFacturable" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="montoTotalAPagar" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="numeroCFE" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="serieCFE" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tasaBasicaIVA" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="tasaMinimaIVA" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="tipoCambio" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="tipoCFE" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="tipoMoneda" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalCreidtosFiscales" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="totalImpuestoPercibido" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="totalIVAOtraTasa" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="totalIVATasaBasica" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="totalIVATasaMinima" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="totalMontoExportacion" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="totalMontoIVAEnSuspenso" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="totalMontoNetoIVAOtraTasa" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="totalMontoNoGravado" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="totalMontoRetenidoPercibido" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="totalMontoTotal" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="viaTrasporte" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="detalleItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" syncable="YES"/>
+        <relationship name="emisor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Emisor" inverseName="cfeEmitidos" inverseEntity="Emisor" syncable="YES"/>
+        <relationship name="receptor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Receptor" inverseName="cfeRecibidos" inverseEntity="Receptor" syncable="YES"/>
+        <relationship name="tablaRetenciones" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Impuesto" syncable="YES"/>
+    </entity>
+    <entity name="CodigosItem" representedClassName=".CodigosItem" syncable="YES">
+        <attribute name="codigo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Descuento" representedClassName=".Descuento" syncable="YES">
+        <attribute name="tipo" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="valor" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="Emisor" representedClassName=".Emisor" syncable="YES">
+        <attribute name="ciudad" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="codigoCasaPrincipalSucursal" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="correoElectronico" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="denominacion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="departamento" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="domicilioFiscal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giro" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoAdicional" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombreCasaPrincipalSucursal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombreComercial" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ruc" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="telefono" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="cfeEmitidos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Certificado" inverseName="emisor" inverseEntity="Certificado" syncable="YES"/>
+    </entity>
+    <entity name="Impuesto" representedClassName=".Impuesto" syncable="YES">
+        <attribute name="codigo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="monto" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="tasa" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="valor" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="Item" representedClassName=".Item" syncable="YES">
+        <attribute name="cantidad" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descuento" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="indicadorAgenteResponsable" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="indicadorFacturacion" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="monto" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="montoDescuento" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="montoRecargo" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nroSecuencial" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="precioUnitario" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="recargo" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="unidadMedida" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tablaCodigos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CodigosItem" syncable="YES"/>
+        <relationship name="tablaDistribucionDesc" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Descuento" syncable="YES"/>
+        <relationship name="tablaDistribucionRecargo" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Recargo" syncable="YES"/>
+        <relationship name="tablaImpuestos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Impuesto" syncable="YES"/>
+    </entity>
+    <entity name="Recargo" representedClassName=".Recargo" syncable="YES">
+        <attribute name="tipo" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="valor" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="Receptor" representedClassName=".Receptor" syncable="YES">
+        <attribute name="ciudad" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="codigoPais" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="codigoPostal" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="codigoTIpoDocumento" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="denominacion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deptoProvinciaEstado" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="direccion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infoAdicional" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lugarDestinoEntrega" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numeroDocumentoExtranjero" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numeroDocumentoUruguayo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numeroIdentificacionCompra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pais" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="cfeRecibidos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Certificado" inverseName="receptor" inverseEntity="Certificado" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Certificado" positionX="-650" positionY="-342" width="128" height="660"/>
+        <element name="CodigosItem" positionX="-884" positionY="-153" width="128" height="73"/>
+        <element name="Descuento" positionX="-1019" positionY="51" width="128" height="73"/>
+        <element name="Emisor" positionX="-855" positionY="-405" width="128" height="58"/>
+        <element name="Impuesto" positionX="-407" positionY="-343" width="128" height="103"/>
+        <element name="Item" positionX="-641" positionY="-180" width="128" height="298"/>
+        <element name="Recargo" positionX="-731" positionY="204" width="128" height="73"/>
+        <element name="Receptor" positionX="-866" positionY="-288" width="128" height="255"/>
+    </elements>
+</model>
